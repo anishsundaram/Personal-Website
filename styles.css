@@ -1,0 +1,44 @@
+
+body{
+    margin: 0px
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px;
+}
+
+.left-side{
+    text-transform: uppercase;
+}
+
+.right-side{
+    display: flex;
+    
+}
+
+.nav-wrapper > .right-side > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom .5s;
+}
+
+.nav-link-wrapper a{
+   color:  burlywood;
+   text-decoration: none;
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover{
+   color:  black
+}
