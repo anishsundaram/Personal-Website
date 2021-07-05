@@ -48,9 +48,11 @@ body{
 }
 
 .contact{
-    background-color: royalblue
+    background-color: lightgoldenrodyellow;
+    padding:20px;
 }
 
 .form-group{
-    color: lightgray;
+    color: darkgray;
+    padding-bottom: 15px;
 }
