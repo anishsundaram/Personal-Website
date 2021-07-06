@@ -1,5 +1,5 @@
 
-body{
+.body{
     margin: 0px
 }
 
@@ -18,7 +18,7 @@ body{
     
 }
 
-.nav-wrapper > .right-side > div{
+.nav-wrapper .right-side > div{
     margin-right: 20px;
     text-transform: uppercase;
 }
@@ -43,16 +43,43 @@ body{
    color:  black
 }
 
-.copyright{
-    
-}
-
 .contact{
     background-color: lightgoldenrodyellow;
     padding:20px;
 }
 
-.form-group{
+.contact .form-group{
     color: darkgray;
     padding-bottom: 15px;
+}
+
+.contact label{
+    display: block;
+}
+
+.contact input[type="text"],[type="email"], .contact textarea{
+    padding: 8px;
+    width: 100%;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact input[type="submit"]{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgreen;
+    font-size: 12px;
+    color:white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact input[type="submit"]:hover{
+   background-color: darkgreen; 
+}
+
+.copyright{
+    
 }
