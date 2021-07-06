@@ -1,12 +1,29 @@
 
+
+
+.header div{
+    background-color: green;
+}
 .body{
-    margin: 0px
+    margin: 0px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
 }
 
 .nav-wrapper{
+   
     display: flex;
     justify-content: space-between;
     padding: 36px;
+    background-color: teal;
+    border: none;
+
 }
 
 .left-side{
@@ -15,10 +32,9 @@
 
 .right-side{
     display: flex;
-    
 }
 
-.nav-wrapper .right-side > div{
+.nav-wrapper .right-side  div{
     margin-right: 20px;
     text-transform: uppercase;
 }
@@ -39,9 +55,6 @@
     border-bottom: 1px solid black;
 }
 
-.nav-link-wrapper a:hover{
-   color:  black
-}
 
 .contact{
     background-color: lightgoldenrodyellow;
@@ -59,11 +72,11 @@
 
 .contact input[type="text"],[type="email"], .contact textarea{
     padding: 8px;
-    width: 100%;
+    width: 99%;
     font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .contact input[type="submit"]{
@@ -73,7 +86,7 @@
     color:white;
     padding: 10px 15px;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .contact input[type="submit"]:hover{
@@ -81,5 +94,8 @@
 }
 
 .copyright{
-    
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-align: center;
 }
