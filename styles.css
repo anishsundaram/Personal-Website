@@ -10,7 +10,7 @@ body{
   color: white;
 }
 
-.nav-wrapper{
+#nav-wrapper{
     display: flex;
     justify-content: space-between;
     padding: 36px;
@@ -27,7 +27,7 @@ body{
     display: flex;
 }
 
-.nav-wrapper .right-side div{
+#nav-wrapper .right-side div{
     margin-right: 20px;
     text-transform: uppercase;
 }
@@ -49,21 +49,21 @@ body{
 }
 
 
-.contact{
+#contact{
     background-color: lightgoldenrodyellow;
     padding:20px;
 }
 
-.contact .form-group{
+#contact .form-group{
     color: darkgray;
     padding-bottom: 15px;
 }
 
-.contact label{
+#contact label{
     display: block;
 }
 
-.contact input[type="text"],[type="email"], .contact textarea{
+#contact input[type="text"],[type="email"], .contact textarea{
     padding: 8px;
     width: 99%;
     font-size: 12px;
@@ -72,7 +72,7 @@ body{
     border-radius: 15px;
 }
 
-.contact input[type="submit"]{
+#contact input[type="submit"]{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: lightgreen;
     font-size: 12px;
@@ -82,11 +82,11 @@ body{
     border-radius: 15px;
 }
 
-.contact input[type="submit"]:hover{
+#contact input[type="submit"]:hover{
    background-color: darkgreen; 
 }
 
-copyright{
+#copyright{
     background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
