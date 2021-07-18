@@ -70,7 +70,7 @@ body{
     color: darkgray;
 }
 
-#contact input[type="text"],[type="email"], .contact textarea{
+#contact input[type="text"],[type="email"]{
     padding: 8px;
     width: 50%;
     font-size: 12px;
@@ -80,7 +80,18 @@ body{
     border-radius: 15px;
 }
 
-#contact input[type="submit"]{
+#contact textarea{
+    padding: 8px;
+    width: 99%; 
+    resize: vertical;
+    border: none;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    min-height: 100px;
+}
+
+#contact button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: lightgreen;
     font-size: 12px;
@@ -90,8 +101,17 @@ body{
     border-radius: 15px;
 }
 
-#contact input[type="submit"]:hover{
+#contact button:hover{
    background-color: darkgreen; 
+}
+
+#contact a{
+    color: red;
+    text-decoration: none;
+}
+
+#contact a:hover{
+    color: lightsalmon
 }
 
 #copyright{
