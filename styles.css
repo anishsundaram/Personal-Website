@@ -1,9 +1,11 @@
 body{
-    margin: 0px;
-    margin-top: 5px;
-    background-color: green;
-    border: none;
+   margin: 0px;
+   background-color: firebrick;
+   border: none;
+   padding:none;
 }
+
+
 
 .dark-mode {
   background-color: black;
@@ -65,30 +67,37 @@ body{
 
 #contact  p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     width: 99%; 
     color: darkgray;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
 }
 
-#contact input[type="text"],[type="email"]{
+#contact input[type="text"],[type="email"], textarea{
     padding: 8px;
     width: 50%;
     font-size: 12px;
     width: 99%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: none;
+    outline: none;
     border-radius: 15px;
 }
 
 #contact textarea{
-    padding: 8px;
-    width: 99%; 
     resize: vertical;
-    border: none;
-    border-radius: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
     min-height: 100px;
+}
+
+#contact input[type="text"]:focus,[type="email"]:focus, textarea:focus{
+    box-shadow: 0 0 2px coral;
+}
+
+::placeholder{
+    color: cornflowerblue;
+    opacity: .7;
 }
 
 #contact button{
