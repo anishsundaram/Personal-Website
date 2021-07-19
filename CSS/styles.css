@@ -5,12 +5,10 @@ body{
    padding:none;
 }
 
-
-
-.dark-mode {
+/* .dark-mode {
   background-color: black;
   color: white;
-}
+}*/
 
 #nav-wrapper{
     display: flex;
@@ -18,7 +16,6 @@ body{
     padding: 36px;
     background-color: teal;
     border: none;
-
 }
 
 .left-side{
@@ -49,6 +46,14 @@ body{
 .nav-link-wrapper:hover{
     border-bottom: 1px solid black;
 }
+
+#landing{
+    background-color: lightcoral;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 
 #contact{
