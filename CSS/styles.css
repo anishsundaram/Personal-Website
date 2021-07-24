@@ -52,8 +52,19 @@ body{
     margin: 0;
     padding: 0;
 }
+.landing #greeting{
+    
+}
 
+#link-section-container{
+    background-color: cornflowerblue;
+    display: flex;
+    padding: 20px;
+}
 
+#link-section-container .link-section{
+    color: cornsilk;
+}
 
 
 #contact{
