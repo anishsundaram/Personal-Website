@@ -38,7 +38,6 @@ body{
 }
 
 .nav-link-wrapper a{
-    
    color:  burlywood;
    text-decoration: none;
 }
@@ -59,13 +58,25 @@ body{
 #link-section-container{
     background-color: cornflowerblue;
     display: flex;
+    justify-content: space-between;
     padding: 20px;
+    width: 25%;
+    border: none;
+    outline: none;
+   
 }
 
-#link-section-container .link-section{
+.link-section{
     color: cornsilk;
+    border-color: red;
+    border-radius: 15px;
 }
 
+.link-section a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkcyan;
+    text-decoration: none;
+}
 
 #contact{
     background-color: lightgoldenrodyellow;
@@ -93,7 +104,6 @@ body{
 
 #contact input[type="text"],[type="email"], textarea{
     padding: 8px;
-    width: 50%;
     font-size: 12px;
     width: 99%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
