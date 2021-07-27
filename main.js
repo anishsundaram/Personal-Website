@@ -15,7 +15,6 @@ TypeWriter.prototype.type= function(){
     
     if(this.isDeleting){
         this.txt= fullTxt.substring(0, this.txt.length - 1);
-
     }
 
     else{
@@ -24,8 +23,24 @@ TypeWriter.prototype.type= function(){
 
     this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
 
+    let typeSpeed = 300;
+    if(this.isDeleting){
+        typeSpeed /= 2;
+    }
 
-    setTimeout(() => this.type(), 500)
+    if(!this.isDeleting && fullTxt === this.txt){
+        typeSpeed = this.wait;
+        this.isDeleting = true;
+    }
+
+    else if(this.isDeleting && this.txt=== ''){
+        this.isDeleting = false;
+        this.wordIndex++;
+
+        typeSpeed = 500;
+    }
+    
+    setTimeout(() => this.type(), typeSpeed)
 }
 
 
