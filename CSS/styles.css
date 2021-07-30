@@ -171,6 +171,7 @@ h1, h2 {
 
 #contact button:hover{
    background-color: darkgreen; 
+   transition-delay:10ms;
 }
 
 #contact a{
@@ -214,6 +215,7 @@ h1, h2 {
 
 #main-footer li a:hover{
     color: indigo;
+    transition-delay:50ms;
 }
 
 #main-footer a, #main-footer a:visited{
