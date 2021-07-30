@@ -18,41 +18,30 @@
   </head>
 
   <body>
-    <div id="nav-wrapper">
-
+    <nav class="nav-wrapper">
+    <div class="content">
       <div class="left-side">
-        <div class="nav-link-wrapper">
-          <a href="/#about">Home</a>
-        </div>
+        <a href="/#about">Home</a>
       </div>
-
-      <div class="right-side">
-
-        <div class="nav-link-wrapper">
+      <ul class="right-side">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <div class="dark-mode-btn">
           <i class="far fa-moon" style="color: burlywood" style="cursor:pointer"></i>
         </div>
-
-        <div class="nav-link-wrapper">
-          <a href="/#education">Education</a>
-        </div>
-
-        <div class="nav-link-wrapper">
-          <a href="/#projects">Experience</a>
-        </div>
-
-        <div class="nav-link-wrapper">
-          <a href="/#contact">Contact</a>
-        </div>
-
-        <div class="nav-link-wrapper">
-          <a href="rsc/Resume.pdf" target="_blank">Resume</a>
-        </div>      
-        
+        <li><a href="/#education">Education</a></li>
+        <li><a href="/#projects">Experience</a></li>
+        <li><a href="/#contact">Contact</a></li>
+        <li><a href="rsc/Resume.pdf" target="_blank">Resume</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
       </div>
-        
     </div>
-  
-  
+  </nav>
+    
+
     <div id="landing">
       
       <div class="greeting">
@@ -175,4 +164,6 @@
     
   </body>
 <script src="main.js"></script>
+<div style="margin-top:500px"></div>
+
 </html>

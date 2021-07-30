@@ -6,7 +6,47 @@ body{
    padding:none;
 }
 
+.content{
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 30px;
+}
+.nav-wrapper{
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  padding: 25px 0;
+  transition: all 0.3s ease;
+}
 
+.nav-wrapper .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-wrapper .left-side a{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.nav-wrapper .right-side{
+  display: inline-flex;
+}
+.right-side li{
+  list-style: none;
+}
+.right-side li a{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.right-side li a:hover{
+  color: #007bff;
+}
 
 #nav-wrapper{
     display: flex;
@@ -14,8 +54,13 @@ body{
     padding: 36px;
     background-color: teal;
     border: none;
+    max-width: 1250px;
+    margin: auto;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
 }
-
+/*
 .left-side{
     text-transform: uppercase;
 }
@@ -43,10 +88,68 @@ body{
 .nav-link-wrapper:hover{
     border-bottom: 1px solid black;
 }
+*/
 
-
-
-
+/*
+@media (max-width: 1230px) {
+  .content{
+    padding: 0 60px;
+  }
+}
+@media (max-width: 1100px) {
+  .content{
+    padding: 0 40px;
+  }
+}
+@media (max-width: 900px) {
+  .content{
+    padding: 0 30px;
+  }
+}
+@media (max-width: 868px) {
+  body.disabled{
+    overflow: hidden;
+  }
+  .icon{
+    display: block;
+  }
+  .icon.hide{
+    display: none;
+  }
+  .navbar .menu-list{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: 400px;
+    left: -100%;
+    top: 0px;
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    background: #222;
+    transition: all 0.3s ease;
+  }
+  .navbar.show .menu-list{
+    left: 0%;
+  }
+  .navbar .menu-list li{
+    margin-top: 45px;
+  }
+  .navbar .menu-list li a{
+    font-size: 23px;
+    margin-left: -100%;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .navbar.show .menu-list li a{
+    margin-left: 0px;
+  }
+}
+@media (max-width: 380px) {
+  .navbar .logo a{
+    font-size: 27px;
+  }
+}
+*/
 
 #landing{
     background-color: lightcoral;
