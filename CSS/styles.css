@@ -6,10 +6,7 @@ body{
    padding:none;
 }
 
-/* .dark-mode {
-  background-color: black;
-  color: white;
-}*/
+
 
 #nav-wrapper{
     display: flex;
@@ -170,8 +167,9 @@ h1, h2 {
 }
 
 #contact button:hover{
-   background-color: darkgreen; 
-   transition-delay:10ms;
+    background-color: darkgreen; 
+    transition-delay:10ms;
+    cursor:pointer;
 }
 
 #contact a{
