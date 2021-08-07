@@ -6,7 +6,7 @@ body{
    padding:none;
 }
 
-.content{
+.nav-wrapper .content{
   max-width: 1250px;
   margin: auto;
   padding: 0 30px;
