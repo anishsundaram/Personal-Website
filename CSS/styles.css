@@ -30,6 +30,10 @@ body{
   font-weight: 600;
   text-decoration: none;
 }
+
+.nav-wrapper .left-side a:hover{
+  color: #007bff;
+}
 .nav-wrapper .right-side{
   display: inline-flex;
 }
@@ -46,7 +50,6 @@ body{
 }
 .right-side li a:hover{
   color: #007bff;
-  text-decoration: underline;
 }
 
 #nav-wrapper{
