@@ -35,6 +35,7 @@ body{
 }
 .right-side li{
   list-style: none;
+  
 }
 .right-side li a{
   color: #fff;
@@ -46,6 +47,7 @@ body{
 }
 .right-side li a:hover{
   color: #007bff;
+  text-decoration: underline;
 }
 
 #nav-wrapper{
@@ -60,19 +62,6 @@ body{
     z-index: 5;
     width: 100%;
 }
-/*
-.left-side{
-    text-transform: uppercase;
-}
-
-.right-side{
-    display: flex;
-}
-
-#nav-wrapper .right-side div{
-    margin-right: 20px;
-    text-transform: uppercase;
-} 
 
 .nav-link-wrapper{
     height: 22px;
@@ -80,15 +69,7 @@ body{
     transition: border-bottom .5s;
 }
 
-.nav-link-wrapper a{
-   color:  burlywood;
-   text-decoration: none;
-}
 
-.nav-link-wrapper:hover{
-    border-bottom: 1px solid black;
-}
-*/
 
 /*
 @media (max-width: 1230px) {
