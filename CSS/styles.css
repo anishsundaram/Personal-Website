@@ -6,6 +6,10 @@ body{
    padding:none;
 }
 
+img {
+  border-radius: 150%;
+}
+
 .nav-wrapper .content{
   max-width: 1250px;
   margin: auto;
