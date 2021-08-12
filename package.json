@@ -8,7 +8,7 @@
   "main": "main.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css" : "tailwind build CSS/styles.css  -o CSS/output.css" 
   },
   "repository": {
     "type": "git",
