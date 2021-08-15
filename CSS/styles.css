@@ -6,8 +6,9 @@ body{
    padding:none;
 }
 
-img {
+.img-container img{
   border-radius: 150%;
+  
 }
 
 .nav-wrapper .content{
