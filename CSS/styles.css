@@ -6,9 +6,19 @@ body{
    padding:none;
 }
 
-.img-container img{
-  border-radius: 150%;
-  
+img{
+    border-radius: 150%;
+    max-width: 100%;
+    height: auto;
+    padding: 15px;
+}
+
+#landing-image{
+    width: 260px;
+}
+
+#about-section-image{
+    height:  350px;
 }
 
 .nav-wrapper .content{
