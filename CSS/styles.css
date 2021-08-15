@@ -129,6 +129,12 @@ section {
     padding-top: 5rem;
 }
 
+
+.greeting{
+    display: flex;
+    flex-direction: row;
+}
+
 .greeting-container{
     display: flex;
     flex-direction: column;
