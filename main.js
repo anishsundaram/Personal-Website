@@ -25,7 +25,7 @@ TypeWriter.prototype.type= function(){
 
     let typeSpeed = 200;
     if(this.isDeleting){
-        typeSpeed /= 3;
+        typeSpeed /= 4;
     }
 
     if(!this.isDeleting && fullTxt === this.txt){

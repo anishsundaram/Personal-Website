@@ -50,9 +50,6 @@ section {
 }
 
 
-#landing-image{
-    width: 260px;
-}
 
 #about-section-image{
     height:  350px;
@@ -119,6 +116,9 @@ section {
     background-color: lightcoral;
     margin: 0;
     padding-top: 5rem;
+}
+#landing-image{
+    width: 260px;
 }
 
 
