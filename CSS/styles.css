@@ -6,6 +6,9 @@
 
 }
 
+body{
+    height: 100vh;
+}
 
 a{
     text-decoration: none;
@@ -135,7 +138,6 @@ section {
     
 }
 
-
 .greeting{
     display: flex;
     flex-direction: row;
@@ -150,14 +152,11 @@ section {
 
 
 #link-section-container{
-    background-color: cornflowerblue;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
     width: 25%;
-    border: none;
-    outline: none;
     flex-direction:row;
+    
    
 }
 
@@ -171,6 +170,12 @@ section {
     color: darkcyan;
     text-decoration: none;
 }
+
+.link-section a:hover {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
 
 #contact{
     background-color: lightgoldenrodyellow;
