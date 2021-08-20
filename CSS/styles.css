@@ -131,7 +131,7 @@ section {
 }
 #landing{
     background-color: lightcoral;
-    
+    padding-bottom: 10rem;
 }
 #landing-image{
     width: 260px;
@@ -172,23 +172,6 @@ section {
 .link-section a:hover {
     color: cornflowerblue;
 }
-
-/* #contact button{
-    background-color: lightgreen;
-    font-size: 12px;
-    color:white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 15px;
-}
-
-#contact button:hover{
-    background-color: darkgreen; 
-    transition-delay:10ms;
-    cursor:pointer;
-} */
-
-
 
 #contact{
     background-color: lightgoldenrodyellow;
