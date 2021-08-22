@@ -157,7 +157,6 @@ section {
     display: flex;
     justify-content: space-between;
     width: 45%;
-    
 }
 
 
@@ -235,7 +234,7 @@ section {
 }
 
 #contact a{
-    color: red;
+    color: crimson;
     text-decoration: none;
 }
 
