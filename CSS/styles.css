@@ -174,7 +174,10 @@ section {
 }
 #contact{
     background-color: lightgoldenrodyellow;
-    padding:20px;
+    padding-top:20px;
+    padding-right:20px;
+    padding-left:20px;
+
 }
 
 #contact .form-group{
@@ -238,15 +241,14 @@ section {
     text-decoration: none;
 }
 
+
+
 #main-footer{
-    padding-top: 15;
     justify-items: end;
     background-color: white;
     height: 70px;
-    position: relative;
     bottom: 0;
     width: 100vw;
-
 }
 
 #main-footer #copyright{
