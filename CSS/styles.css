@@ -182,11 +182,14 @@ section {
 
 #contact .form-group{
     color: darkgray;
+    padding-right: 8px;
+    padding-left: 8px;
     padding-bottom: 15px;
 }
 
 #contact label{
     display: block;
+    padding-bottom: 5px;
 }
 
 #contact  p{
