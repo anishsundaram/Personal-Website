@@ -244,11 +244,14 @@ section {
 
 
 #main-footer{
-    justify-items: end;
-    background-color: white;
-    height: 70px;
-    bottom: 0;
-    width: 100vw;
+  margin-top: auto;
+  justify-items: end;
+  background-color: white;
+  height: 70px;
+  position: relative;
+  width: 100vw;
+  color: white;
+  text-align: center;
 }
 
 #main-footer #copyright{
