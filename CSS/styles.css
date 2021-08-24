@@ -172,6 +172,15 @@ section {
 .link-section a {
     color: white;
 }
+
+
+
+#about{
+  background-color: burlywood;
+}
+
+
+
 #contact{
     background-color: lightgoldenrodyellow;
     padding-top:100px;
