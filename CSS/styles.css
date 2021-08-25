@@ -152,13 +152,11 @@ section {
     height: 100%;
 }
 
-
 #link-section-container{
     display: flex;
     justify-content: space-between;
     width: 45%;
 }
-
 
 .link-section{
     background-color: indigo;
@@ -173,17 +171,22 @@ section {
     color: white;
 }
 
-
-
 #about{
   background-color: burlywood;
   padding: 15px;
+  display: flex;
+  flex-direction: row;
   
+  justify-content: center;
 }
 
+#about .img-container{
+  width: 50%;
+}
 
-
-
+.about-text-container p{
+  width: 50%;
+}
 
 #contact{
     background-color: lightgoldenrodyellow;
