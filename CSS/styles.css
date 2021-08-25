@@ -316,16 +316,19 @@ section {
     padding: 0 40px;
   }
 
-   
+  #about-text{
+    font-size: 14px;
+  }
 }
 @media only screen and (max-width: 950px) {
   .content{
     padding: 0 30px;
   }
-  
 }
-@media only screen and (max-width: 868px) {
- 
+@media only screen and (max-width: 800px) {
+  #about-text{
+    font-size: 12px;
+  }
 
   body.disabled{
     overflow: hidden;
@@ -368,6 +371,10 @@ section {
 @media only screen and (max-width: 480px) {
   .nav-wrapper .left-side a{
     font-size: 27px;
+  }
+
+  #about-text{
+    font-size: 10px;
   }
  
 }
