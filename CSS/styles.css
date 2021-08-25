@@ -61,7 +61,7 @@ section {
 
 
 #about-section-image{
-    height:  350px;
+    height:  340px;
 }
 
 .nav-wrapper .content{
@@ -309,6 +309,10 @@ section {
   .content{
     padding: 0 60px;
   }
+
+  #about-section-image{
+    height:  300px;
+  }
   
 }
 @media only screen and (max-width: 1024px) {
@@ -317,15 +321,21 @@ section {
   }
 
   #about-text{
-    font-size: 14px;
+    font-size: 15px;
   }
 }
+
 @media only screen and (max-width: 950px) {
   .content{
     padding: 0 30px;
   }
+
+  #about-section-image{
+    height:  280px;
+}
 }
 @media only screen and (max-width: 800px) {
+
   #about-text{
     font-size: 12px;
   }
@@ -376,5 +386,10 @@ section {
   #about-text{
     font-size: 11px;
   }
+
+  #about-section-image{
+    height:  270px;
+  }
+ 
  
 }
