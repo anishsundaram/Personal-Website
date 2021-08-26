@@ -34,7 +34,6 @@ p{
 img{
     border-radius: 150%;
     max-width: 100%;
-    height: auto;
     padding: 15px;
 }
 
@@ -173,7 +172,6 @@ section {
 
 #about{
   background-color: burlywood;
-
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -184,8 +182,13 @@ section {
   width: 25%;
 }
 
+#about-section-image{
+  height: auto;
+  width: auto;
+}
+
 .about-text-container{
-  width: 30%;
+  width: 25%;
 }
 
 #contact{
@@ -299,7 +302,6 @@ section {
     padding-right: 20px;
     padding-top: 20px;
     color: forestgreen;
-    
 }
 
 #main-footer li a:hover{
@@ -311,25 +313,53 @@ section {
     color:green ;
     text-decoration: none;
 }
+@media only screen and (max-width:1500px){
+  .content{
+      padding: 0 90px;
+    }
 
-@media only screen and (max-width: 1230px) {
+  #about-text{
+    font-size: 16px;
+  }
+}
+
+
+@media only screen and (max-width:1440px){
+  .content{
+      padding: 0 80px;
+    }
+
+  #about-text{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width:1300px){
+  #about-text{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
   .content{
     padding: 0 60px;
   }
 
-  #about-section-image{
-    height:  300px;
+  #about-text{
+    font-size: 13px;
   }
-  
 }
+
+
 @media only screen and (max-width: 1024px) {
   .content{
     padding: 0 40px;
   }
 
-  #about-text{
-    font-size: 15px;
+  .about-text{
+    font-size: 12px;
   }
+
 }
 
 @media only screen and (max-width: 950px) {
@@ -337,16 +367,32 @@ section {
     padding: 0 30px;
   }
 
-  #about-section-image{
-    height:  280px;
-}
 }
 @media only screen and (max-width: 800px) {
 
+  #about{
+    flex-direction: column;
+  }
+
+   .about-text{
+    font-size: 11px;
+  }
+
+  #about .img-container{
+    width: 50%;
+  }
+
+  #about-section-image{
+    width: auto;
+    height: auto;
+  }
+  .about-text-container{
+    width: 100%;
+  }
+  
   #about-text{
     font-size: 12px;
   }
-
   body.disabled{
     overflow: hidden;
   }
@@ -386,16 +432,14 @@ section {
   
 }
 @media only screen and (max-width: 480px) {
+
+
   .nav-wrapper .left-side a{
     font-size: 27px;
   }
 
   #about-text{
-    font-size: 11px;
-  }
-
-  #about-section-image{
-    height:  270px;
+    font-size: 10px;
   }
  
  
