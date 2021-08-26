@@ -188,7 +188,11 @@ section {
 }
 
 .about-text-container{
-  width: 25%;
+  width: 50%;
+}
+
+#about-text{
+  width: 100%;
 }
 
 #contact{
@@ -318,9 +322,9 @@ section {
       padding: 0 90px;
     }
 
-  #about-text{
+  /* #about-text{
     font-size: 16px;
-  }
+  } */
 }
 
 @media only screen and (max-width:1440px){
@@ -328,15 +332,15 @@ section {
       padding: 0 80px;
     }
 
-  #about-text{
+  /* #about-text{
     font-size: 15px;
-  }
+  } */
 }
 
 @media only screen and (max-width:1350px){
-  #about-text{
+  /* #about-text{
     font-size: 14px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 1200px) {
@@ -344,18 +348,18 @@ section {
     padding: 0 60px;
   }
 
-  #about-text{
+  /* #about-text{
     font-size: 13px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 1050px) {
   .content{
     padding: 0 40px;
   }
-  #about-text{
+  /* #about-text{
     font-size: 12px;
-  }
+  } */
 
 }
 
@@ -363,9 +367,9 @@ section {
   .content{
     padding: 0 30px;
   }
-  #about-text{
+  /* #about-text{
     font-size: 11px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 800px) {
@@ -373,25 +377,23 @@ section {
     flex-direction: column;
   }
 
+  /* .about-text-container{
+    height: 35%;
+    width: 100%;
+  }
    #about-text{
-    font-size: 11px;
+    font-size: 11.5px;
   }
 
   #about .img-container{
-    width: 50%;
+    height: 55%
   }
 
   #about-section-image{
-    width: auto;
     height: auto;
-  }
-  .about-text-container{
-    width: 100%;
-  }
-  
-  #about-text{
-    font-size: 12px;
-  }
+    width: auto;
+  } */
+
   body.disabled{
     overflow: hidden;
   }
@@ -431,15 +433,19 @@ section {
   
 }
 
+@media only screen and (max-width: 600px) {
+  /* #about-text{
+    font-size:11 ;
+  } */
+}
 @media only screen and (max-width: 480px) {
+
   .nav-wrapper .left-side a{
     font-size: 27px;
   }
 
-  #about-text{
-    font-size: 10px;
-  }
- 
- 
+  /* #about-text{
+    font-size: 10.5px;
+  } */
 }
 
