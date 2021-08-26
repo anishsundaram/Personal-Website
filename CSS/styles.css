@@ -323,7 +323,6 @@ section {
   }
 }
 
-
 @media only screen and (max-width:1440px){
   .content{
       padding: 0 80px;
@@ -334,7 +333,7 @@ section {
   }
 }
 
-@media only screen and (max-width:1300px){
+@media only screen and (max-width:1350px){
   #about-text{
     font-size: 14px;
   }
@@ -350,13 +349,11 @@ section {
   }
 }
 
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1050px) {
   .content{
     padding: 0 40px;
   }
-
-  .about-text{
+  #about-text{
     font-size: 12px;
   }
 
@@ -366,15 +363,17 @@ section {
   .content{
     padding: 0 30px;
   }
-
+  #about-text{
+    font-size: 11px;
+  }
 }
-@media only screen and (max-width: 800px) {
 
+@media only screen and (max-width: 800px) {
   #about{
     flex-direction: column;
   }
 
-   .about-text{
+   #about-text{
     font-size: 11px;
   }
 
@@ -431,9 +430,8 @@ section {
   }
   
 }
+
 @media only screen and (max-width: 480px) {
-
-
   .nav-wrapper .left-side a{
     font-size: 27px;
   }
@@ -444,3 +442,4 @@ section {
  
  
 }
+
